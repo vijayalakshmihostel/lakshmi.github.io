@@ -1,0 +1,99 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    
+}
+header
+{
+    display: flex;
+    align-items: left;
+   position: absolute;
+    background-color: beige;
+    width: 100%;
+    border: 3px solid black;
+    top: 5px;
+    position: fixed;
+}
+
+.nav_links
+{
+    list-style-type: none;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+.nav_links li
+{
+    display: inline-block;
+    padding: 10px;
+    text-transform: capitalize;
+    margin: 15px;
+    
+}
+.nav_links li:hover
+{
+    background-color: grey;
+    color: white;
+    max-height: fit-content;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: 0.52s;
+    font-size: 1.4em;
+    box-shadow: 4px 4px 4px grey;
+}
+.login
+{
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    left: 600px;
+    top: 5px;
+    margin: 15px;
+    padding: 10px;
+    font-size: 1.25em;
+    
+}
+p a
+{
+    text-decoration: none;
+    color: black;
+}
+.login p a:hover
+{
+    background-color: grey;
+    color: white;
+    max-height: fit-content;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: 0.52s;
+    font-size: 1.4em;
+    box-shadow: 4px 4px 4px grey;
+}
+.login p a:active
+{
+    font-size: 20px;
+}
+.bi
+{
+    margin-right: 3px;
+    position: relative;
+    top: -3px;
+}
+.nav_edit
+{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.nav_edit:hover
+{
+    color: white;
+}
+.nav_edit:active
+{
+    font-size: 20px;
+}
+
